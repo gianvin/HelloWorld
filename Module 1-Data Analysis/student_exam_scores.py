@@ -11,3 +11,13 @@ print(df)
 
 #Question 1 How many students sleep 8 hours and above?
 
+data= {
+    "student_id": ["S001", "S002", "S003", "S004", "S005", "S006"],
+    "sleep_hours":[8.0, 7.5, 8.2, 6.8, 9.0, 7.2]
+}
+df =pd.DataFrame(data)
+
+#Code for counting students with 8 hours or more sleep hours
+
+count_8_plus = (df["sleep_hours"] >= 8.0).sum()
+print("Number of students with 8 hours or more:", count_8_plus)
