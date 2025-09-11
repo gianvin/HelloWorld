@@ -21,3 +21,9 @@ df =pd.DataFrame(data)
 
 count_8_plus = (df["sleep_hours"] >= 8.0).sum()
 print("Number of students with 8 hours or more:", count_8_plus)
+
+#Question 2 What is the average percent attendance of all of the students?
+average_attendance = df["attendance_percent"].mean()
+print("Average percent attendance of students:", average_attendance)
+
+#Question 3 Which students has the longest hours of study?
