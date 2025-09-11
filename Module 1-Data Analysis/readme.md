@@ -8,19 +8,22 @@ Create a program using Python Pandas for Data Analysis on Eduaction Data
 
 # Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+Questions:
+1.
+2. 
+3. 
 
 # Development Environment
 
 Python Pandas
-
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 * [dataset](https://www.kaggle.com/datasets/mirzayasirabdullah07/student-exam-scores-dataset)
 * [Pandas](https://pandas.pydata.org/)
+* * [Pandas Data Analysis](https://www.youtube.com/watch?v=CmorAWRsCAw&list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
+* [dataset](https://www.kaggle.com/datasets/)
 
 # Future Work
 
