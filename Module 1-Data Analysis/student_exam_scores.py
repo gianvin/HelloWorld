@@ -9,21 +9,24 @@ pd.set_option("display.max_columns", None )
 
 print(df)
 
-#Question 1 How many students sleep 8 hours and above?
 
+#Code for data sets
 data= {
     "student_id": ["S001", "S002", "S003", "S004", "S005", "S006"],
-    "sleep_hours":[8.0, 7.5, 8.2, 6.8, 9.0, 7.2]
+    "sleep_hours":[8.0, 7.5, 8.2, 6.8, 9.0, 7.2],
+    "previous_scores": [45, 86, 71, 66, 34, 42]
 }
 df =pd.DataFrame(data)
 
-#Code for counting students with 8 hours or more sleep hours
+#Question 1 How many students sleep 8 hours and above?
 
 count_8_plus = (df["sleep_hours"] >= 8.0).sum()
 print("Number of students with 8 hours or more:", count_8_plus)
 
-#Question 2 What is the average percent attendance of all of the students?
-average_attendance = df["attendance_percent"].mean()
-print("Average percent attendance of students:", average_attendance)
+#Question 2 What is the average sleep hours of the students?
+average_sleepHours= df["sleep_hours"].mean()
+print("Average sleep hours of students:", average_sleepHours)
 
-#Question 3 Which students has the longest hours of study?
+#Question 3 What is the sum of the previous scores of the students
+total_score = df["previous_scores"].sum()
+print("Total of all previous scores:", total_score)
